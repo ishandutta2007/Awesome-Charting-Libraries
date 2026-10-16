@@ -74,7 +74,7 @@ Commercial platforms provide ready-to-use cloud infrastructure, specialized fina
 
 ## 🔓 Open-Source GitHub Projects (Ranked by Stars)
 
-All open-source repositories are strictly ranked in descending order by community GitHub Stars_Count. Each entry features a live GitHub Stars_Badge linking directly to the project's stargazers page.
+All open-source repositories are strictly ranked in descending order by community GitHub_Stars_Count. Each entry features a live GitHub_Stars_Badge linking directly to the project's stargazers page.
 
 ### 👑 Top Tier Libraries
 
@@ -215,7 +215,7 @@ Contributions make the open-source and data visualization community thrive! To a
 3. **Follow the formatting**:
    - Provide the official URL, repository link, and license.
    - Add accurate pricing information (starting tier) and free tier/trial limits for SaaS products.
-   - For open-source libraries, ensure the GitHub Stars_Badge (`style=social&color=white`) links to the repo's stargazers page.
+   - For open-source libraries, ensure the GitHub_Stars_Badge (`style=social&color=white`) links to the repo's stargazers page.
 4. **Open a Pull Request** with a brief summary of the project's differentiators.
 
 ---
