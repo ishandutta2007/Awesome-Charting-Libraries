@@ -13,7 +13,7 @@
 <!-- Badges Header -->
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Charting-Libraries/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Charting-Libraries?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Charting-Libraries/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Charting-Libraries?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Charting-Libraries/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Charting-Libraries?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Charting-Libraries/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Charting-Libraries/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square" alt="PRs Welcome" /></a>
@@ -74,7 +74,7 @@ Commercial platforms provide ready-to-use cloud infrastructure, specialized fina
 
 ## 🔓 Open-Source GitHub Projects (Ranked by Stars)
 
-All open-source repositories are strictly ranked in descending order by community GitHub star count. Each entry features a live GitHub star badge linking directly to the project's stargazers page.
+All open-source repositories are strictly ranked in descending order by community GitHub Stars_Count. Each entry features a live GitHub Stars_Badge linking directly to the project's stargazers page.
 
 ### 👑 Top Tier Libraries
 
@@ -215,7 +215,7 @@ Contributions make the open-source and data visualization community thrive! To a
 3. **Follow the formatting**:
    - Provide the official URL, repository link, and license.
    - Add accurate pricing information (starting tier) and free tier/trial limits for SaaS products.
-   - For open-source libraries, ensure the GitHub star badge (`style=social&color=white`) links to the repo's stargazers page.
+   - For open-source libraries, ensure the GitHub Stars_Badge (`style=social&color=white`) links to the repo's stargazers page.
 4. **Open a Pull Request** with a brief summary of the project's differentiators.
 
 ---
