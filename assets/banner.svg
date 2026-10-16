@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0d1527" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="primaryGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="areaGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.0" />
+    </linearGradient>
+
+    <linearGradient id="areaGradient2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.0" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1" />
+    </pattern>
+
+    <filter id="glowFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 52px;
+      letter-spacing: -1px;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0.5px;
+      fill: #94a3b8;
+    }
+    .badge-label {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #e2e8f0;
+      letter-spacing: 1px;
+    }
+
+    /* Ambient animated elements */
+    @keyframes pulseOrb {
+      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.4; }
+      50% { transform: scale(1.15) translate(20px, -15px); opacity: 0.7; }
+    }
+    @keyframes waveFloat {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes barBounce1 {
+      0%, 100% { height: 75px; y: 225px; }
+      50% { height: 110px; y: 190px; }
+    }
+    @keyframes barBounce2 {
+      0%, 100% { height: 120px; y: 180px; }
+      50% { height: 80px; y: 220px; }
+    }
+    @keyframes barBounce3 {
+      0%, 100% { height: 95px; y: 205px; }
+      50% { height: 140px; y: 160px; }
+    }
+    @keyframes radarScan {
+      0% { stroke-dashoffset: 600; }
+      100% { stroke-dashoffset: 0; }
+    }
+
+    .orb-anim { animation: pulseOrb 8s ease-in-out infinite; transform-origin: center; }
+    .wave-anim { animation: waveFloat 6s ease-in-out infinite; }
+    .bar-1 { animation: barBounce1 4s ease-in-out infinite; }
+    .bar-2 { animation: barBounce2 4.5s ease-in-out infinite; }
+    .bar-3 { animation: barBounce3 3.8s ease-in-out infinite; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGradient)" />
+  <rect width="1200" height="360" rx="16" fill="url(#grid)" />
+
+  <!-- Ambient Dynamic Glowing Circles in Background -->
+  <circle cx="950" cy="90" r="140" fill="#6366f1" opacity="0.18" filter="url(#glowFilter)" class="orb-anim" />
+  <circle cx="200" cy="300" r="160" fill="#0ea5e9" opacity="0.12" filter="url(#glowFilter)" class="orb-anim" style="animation-delay: -3s;" />
+  <circle cx="1100" cy="280" r="130" fill="#ec4899" opacity="0.12" filter="url(#glowFilter)" class="orb-anim" style="animation-delay: -5s;" />
+
+  <!-- Dynamic Wave & Chart Shapes (Positioned gracefully in the background / right side) -->
+  <g class="wave-anim" opacity="0.85">
+    <!-- Area Chart 1 -->
+    <path d="M 680 300 Q 770 230 860 260 T 1020 180 T 1180 220 L 1180 300 L 680 300 Z" fill="url(#areaGradient)" />
+    <path d="M 680 300 Q 770 230 860 260 T 1020 180 T 1180 220" fill="none" stroke="#38bdf8" stroke-width="3" filter="url(#glowFilter)" />
+
+    <!-- Area Chart 2 (Accent) -->
+    <path d="M 720 300 Q 820 280 910 210 T 1070 240 T 1200 170 L 1200 300 L 720 300 Z" fill="url(#areaGradient2)" />
+    <path d="M 720 300 Q 820 280 910 210 T 1070 240 T 1200 170" fill="none" stroke="#f43f5e" stroke-width="2.5" opacity="0.8" />
+
+    <!-- Animated Dynamic Chart Bars on right edge -->
+    <rect x="940" y="210" width="16" height="90" rx="4" fill="#818cf8" opacity="0.8" class="bar-1" />
+    <rect x="970" y="180" width="16" height="120" rx="4" fill="#38bdf8" opacity="0.85" class="bar-2" />
+    <rect x="1000" y="200" width="16" height="100" rx="4" fill="#c084fc" opacity="0.8" class="bar-3" />
+    <rect x="1030" y="170" width="16" height="130" rx="4" fill="#ec4899" opacity="0.8" class="bar-1" style="animation-delay: -1.5s;" />
+    <rect x="1060" y="220" width="16" height="80" rx="4" fill="#06b6d4" opacity="0.75" class="bar-2" style="animation-delay: -2s;" />
+
+    <!-- Chart Data Points / Nodes -->
+    <circle cx="860" cy="260" r="5" fill="#38bdf8" />
+    <circle cx="1020" cy="180" r="6" fill="#ffffff" stroke="#38bdf8" stroke-width="3" filter="url(#glowFilter)" />
+    <circle cx="910" cy="210" r="5" fill="#f43f5e" />
+  </g>
+
+  <!-- Foreground Content: Pill Tag -->
+  <g transform="translate(80, 58)">
+    <rect width="250" height="32" rx="16" fill="rgba(255, 255, 255, 0.07)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1" />
+    <circle cx="16" cy="16" r="4" fill="#38bdf8">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="30" y="21" class="badge-label">CURATED ECOSYSTEM 2026</text>
+  </g>
+
+  <!-- Foreground Content: Main Header -->
+  <!-- Crisp glow backdrop for text to guarantee 100% readability -->
+  <text x="80" y="160" class="title-text" fill="url(#primaryGlow)" filter="url(#glowFilter)" opacity="0.4">Awesome Charting Libraries</text>
+  <text x="80" y="160" class="title-text" fill="#ffffff">Awesome Charting Libraries</text>
+
+  <!-- Foreground Content: Subtitles & Features -->
+  <text x="80" y="205" class="subtitle-text">The definitive guide to enterprise dashboards, declarative dataviz &amp; high-performance charts</text>
+
+  <!-- Feature Pills in Foreground -->
+  <g transform="translate(80, 248)">
+    <g transform="translate(0, 0)">
+      <rect width="135" height="34" rx="8" fill="rgba(56, 189, 248, 0.12)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1" />
+      <text x="18" y="22" font-family="-apple-system, sans-serif" font-size="14" font-weight="600" fill="#38bdf8">⚡ React &amp; Vue</text>
+    </g>
+    <g transform="translate(147, 0)">
+      <rect width="148" height="34" rx="8" fill="rgba(129, 140, 248, 0.12)" stroke="rgba(129, 140, 248, 0.3)" stroke-width="1" />
+      <text x="18" y="22" font-family="-apple-system, sans-serif" font-size="14" font-weight="600" fill="#818cf8">📊 SVG &amp; Canvas</text>
+    </g>
+    <g transform="translate(307, 0)">
+      <rect width="158" height="34" rx="8" fill="rgba(192, 132, 252, 0.12)" stroke="rgba(192, 132, 252, 0.3)" stroke-width="1" />
+      <text x="18" y="22" font-family="-apple-system, sans-serif" font-size="14" font-weight="600" fill="#c084fc">🚀 High-FPS Data</text>
+    </g>
+    <g transform="translate(477, 0)">
+      <rect width="140" height="34" rx="8" fill="rgba(236, 72, 153, 0.12)" stroke="rgba(236, 72, 153, 0.3)" stroke-width="1" />
+      <text x="18" y="22" font-family="-apple-system, sans-serif" font-size="14" font-weight="600" fill="#f472b6">💼 SaaS &amp; OSS</text>
+    </g>
+  </g>
+</svg>

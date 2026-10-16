@@ -1,54 +1,65 @@
-# Awesome-Charting-Libraries
+<div align="center">
 
-## Top Charting Libraries Ecosystem
+<img src="./assets/banner.svg" alt="Awesome Charting Libraries Banner" width="100%" />
 
+# 📊 Awesome Charting Libraries
 
+### 🚀 A Curated List of Premier SaaS Platforms & Open-Source Data Visualization Toolkits
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+<p align="center">
+  <em>High-performance charting, declarative visualization components, composable primitives, and interactive dashboard SDKs.</em>
+</p>
 
-*Focused on Declarative Visualization, Composable Components & Production Dashboards*  
+<!-- Badges Header -->
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Charting-Libraries/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Charting-Libraries?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Charting-Libraries/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Charting-Libraries?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Charting-Libraries/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Charting-Libraries/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Last updated: October 2026**
+<p align="center">
+  <strong>Updated: October 2026</strong> • <strong>Curated by <a href="https://github.com/ishandutta2007">@ishandutta2007</a></strong>
+</p>
 
+</div>
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Charting Libraries**. These tools enable developers to render interactive data visualizations in web applications—from declarative React components with minimal configuration to low-level primitives that give complete control over every pixel.
+## 🧭 Overview & Ecosystem Architecture
 
+Welcome to **Awesome Charting Libraries** — the comprehensive, developer-first catalog of commercial SaaS solutions and cutting-edge open-source visualization projects. Whether you are engineering real-time financial telemetry dashboards, scientific exploratory canvases, or reactive UI admin suites (React, Vue, Svelte, Angular, Vanilla JS), this guide breaks down trade-offs between **declarative abstraction**, **SVG vs. Canvas rendering**, and **runtime throughput**.
 
+### 🌟 Quick Navigation
+- [📈 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
+- [🔓 Open-Source GitHub Projects (Ranked by Stars)](#-open-source-github-projects-ranked-by-stars)
+  - [👑 Top Tier Libraries](#-top-tier-libraries)
+  - [🚀 Specialized & Modern Frameworks](#-specialized--modern-frameworks)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Sponsorship](#-support--sponsorship)
+- [📜 Star History](#-star-history)
+- [⚠️ Disclaimer](#-disclaimer)
 
-**Examples** include Recharts, Nivo, Victory, Chart.js, D3.js, Highcharts, amCharts, ECharts, Plotly, and Visx (the category leaders).
+---
 
+## 📈 Sector Overview & Market Dynamics
 
+The global data visualization and charting software market is estimated at approximately **$10.9B to $13.4B in 2024–2026**, expanding at a compound annual growth rate (CAGR) of ~11–14% toward over **$25B by the early 2030s**. 
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, composable components, and open visualization primitives—ideal for frontend developers, data engineers, and organizations seeking transparent, vendor-independent charting.
+The sector exhibits **moderate concentration**:
+- **Enterprise BI Dominance**: Heavyweight enterprise BI platforms (Microsoft Power BI, Salesforce Tableau, Google Looker) control centralized reporting and corporate analytics budgets.
+- **Embedded & Developer SDK Fragmentation**: The developer-facing charting ecosystem is highly fragmented. Engineering teams increasingly demand embeddable, customizable SDKs with sub-millisecond redraws, zero licensing friction, and native integration into modern frontend toolchains (React, Vue, Svelte, TypeScript).
 
+---
 
+## 🏢 SaaS & Hosted Commercial Platforms
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+Commercial platforms provide ready-to-use cloud infrastructure, specialized financial or geospatial charting engines, enterprise accessibility (ADA/Section 508), and dedicated SLAs.
 
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
-
-The global data visualization and charting software market is estimated at approximately **$10.9B to $13.4B in 2024–2026**, growing at a CAGR of ~11–14% toward over $25B by the 2030s. The sector is **moderately concentrated**—while heavyweight BI suites (Tableau, Microsoft Power BI) anchor large enterprise deployments, the developer charting and embedded visualization segment remains dynamic and fragmented among specialized niche libraries, commercial SDKs, and open-source ecosystems.
-
-
-
-## SaaS/Hosted Platforms
+*Sorted descending by estimated corporate scale and revenue:*
 
 | Platform | Revenue / Valuation (Est.) | Starting Price | Free Tier / Trial Limits | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -59,154 +70,183 @@ The global data visualization and charting software market is estimated at appro
 | **[AnyChart](https://www.anychart.com/)** | Small/Mid Enterprise (<$5M ARR) | $49/website (one-time) | Free forever for non-profit/educational use; unlimited-time free evaluation with visible watermark on charts | Enterprise visualization engine with 70+ chart types, Gantt charts, maps, and stock charts across JavaScript frameworks. |
 | **[ZingChart](https://www.zingchart.com/)** | ~$300k–$500k ARR | $249 (one-time license) | Free forever (Branded License): full access to all chart modules and unlimited rendering, but requires a visible "Powered by ZingChart" watermark (hidden on `localhost`) | Fast canvas/SVG hybrid charting library designed for high-density datasets, real-time telemetry, and modular dashboards. |
 
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[D3.js](https://github.com/d3/d3)**  
-
-  **The foundational JavaScript library for visualizing data with HTML, SVG, and CSS** (ISC) . **110,000+ GitHub stars** . **Not a charting library in the traditional sense**—it's a **low-level toolkit for binding data to the DOM** and applying data-driven transformations . **The most powerful and flexible visualization library**—every other JavaScript charting library is either built on D3 or directly inspired by it . **The learning curve is steep**, but nothing else matches its control . **Best for**: custom visualizations, novel chart types, and teams willing to invest in learning the primitives .
-
-
-
-- **[Chart.js](https://github.com/chartjs/Chart.js)**  
-
-  **Simple yet flexible JavaScript charting library** (MIT) . **65,000+ GitHub stars** . **The most widely adopted open-source charting library**—**canvas-based rendering** for performance, **8 chart types** (line, bar, radar, doughnut, pie, polar area, bubble, scatter), and **built-in animation** . **The easiest path to beautiful charts**—CDN drop-in, sensible defaults, minimal configuration . **Responsive by default**. **Best for**: dashboards, admin panels, and teams that want charts rendering in minutes, not days .
-
-
-
-- **[Apache ECharts](https://github.com/apache/echarts)**  
-
-  **Powerful, interactive charting and visualization library** (Apache-2.0) . **60,000+ GitHub stars** . **The most feature-complete open-source charting library**—**20+ chart types**, **3D visualizations (GL), geographic maps, graph/network charts, and large-scale data rendering** . **Built-in data zoom, brushing, and tooltip interactions** . **The default choice for complex enterprise dashboards** requiring advanced features without commercial licensing . **Best for**: teams needing broad chart type coverage, maps, and performance with large datasets .
-
-
-
-- **[Recharts](https://github.com/recharts/recharts)**  
-
-  **Redefined chart library built with React and D3** (MIT) . **24,000+ GitHub stars** . **The most popular React-native charting library**—**declarative components** (`<LineChart>`, `<Bar>`, `<XAxis>`) compose like React itself . **SVG-based rendering** with **responsive containers** out of the box . **The best developer experience** for React applications—if you know React, you know Recharts . **Best for**: React applications where you want charts to feel like native components, not foreign libraries .
-
-
-
-- **[Nivo](https://github.com/plouc/nivo)**  
-
-  **Rich set of dataviz components built on top of D3** (MIT) . **13,000+ GitHub stars** . **The most visually polished React charting library**—**beautiful defaults, server-side rendering support, and canvas/SVG/HTML rendering options** . **40+ chart types** including **stream, marimekko, bump, and chord diagrams** . **Best for**: React applications where aesthetics matter—Nivo charts look great with zero configuration .
-
-
-
-- **[Victory](https://github.com/FormidableLabs/victory)**  
-
-  **A collection of composable React components for building interactive data visualizations** (MIT) . **11,000+ GitHub stars** . **The most modular React charting library**—**composable components** that can be mixed and matched to create custom visualizations . **Cross-platform**—works with React, React Native, and web . **Best for**: teams that want to build custom visualizations from composable primitives without dropping to raw D3 .
-
-
-
-- **[Visx (Airbnb)](https://github.com/airbnb/visx)**  
-
-  **A collection of reusable low-level visualization components** (MIT) . **19,000+ GitHub stars** . **The middle ground between D3 and Recharts**—**provides D3 primitives as React components** (scale, axis, shape, gradient) without forcing a chart abstraction . **The most flexible React charting approach**—compose exactly the visualization you need . **Best for**: teams that want D3-level control with React idioms .
-
-
-
-- **[Plotly.js](https://github.com/plotly/plotly.js)**  
-
-  **Open-source JavaScript charting library** (MIT) . **17,000+ GitHub stars** . **The most scientific charting library**—**40+ chart types** including **3D, statistical, financial, and geographic** . **The JavaScript foundation for Plotly.py and Plotly R** . **Best for**: scientific, statistical, and financial visualizations .
-
-
-
-- **[ApexCharts](https://github.com/apexcharts/apexcharts.js)**  
-
-  **Modern & interactive open-source charts** (MIT) . **14,000+ GitHub stars** . **SVG-based charting library** with **beautiful animations** and **responsive design** . **20+ chart types** with **real-time update support** . **Best for**: modern dashboards where animation and visual polish matter .
-
-
-
-- **[uPlot](https://github.com/leeoniya/uPlot)**  
-
-  **A small, fast chart for time series, lines, areas, ohlc & bars** (MIT) . **8,000+ GitHub stars** . **The fastest charting library for large datasets**—**canvas-based rendering** with **sub-millisecond update times** . **Handles millions of data points** where other libraries choke . **Best for**: real-time monitoring, financial trading dashboards, and any scenario with massive time-series data .
-
-
-
-- **[Observable Plot](https://github.com/observablehq/plot)**  
-
-  **A concise API for exploratory data visualization** (ISC) . **4,000+ GitHub stars** . **The most modern D3 abstraction**—**declarative marks and scales** with **sensible defaults** . **Built by Observable** (D3 creator Mike Bostock's company) . **Best for**: exploratory data analysis in notebooks and quick visualizations .
-
-
-
-- **[Vega-Lite](https://github.com/vega/vega-lite)**  
-
-  **A grammar of interactive graphics** (BSD-3-Clause) . **4,000+ GitHub stars** . **The declarative approach to visualization**—**describe what you want in JSON**, Vega-Lite handles the rest . **The foundation for Vega and many dashboard tools** . **Best for**: teams that want declarative visualization without writing JavaScript .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Vega](https://github.com/vega/vega)** — Visualization grammar (BSD-3-Clause) . **The lower-level foundation beneath Vega-Lite** .
-
-- **[C3.js](https://github.com/c3js/c3)** — D3-based reusable chart library (MIT) . **The most popular D3 abstraction before React libraries emerged** .
-
-- **[Billboard.js](https://github.com/naver/billboard.js)** — Re-usable, easy interface JavaScript chart library (MIT) . **The modern successor to C3.js** .
-
-- **[Chartist](https://github.com/chartist-js/chartist)** — Simple responsive charts (MIT) . **The most CSS-friendly charting library** .
-
-- **[Frappe Charts](https://github.com/frappe/charts)** — Simple, responsive, modern SVG charts (MIT) . **The most GitHub-native charting library** .
-
-- **[Tremor](https://github.com/tremorlabs/tremor)** — React components for building dashboards (Apache-2.0) . **The most dashboard-focused React library** .
-
-- **[Unovis](https://github.com/f5/unovis)** — Modular data visualization framework (Apache-2.0) . **The most framework-agnostic modern charting library**—supports React, Angular, Vue, Svelte, and vanilla JS .
-
-- **[Lightweight Charts](https://github.com/tradingview/lightweight-charts)** — Financial charts from TradingView (Apache-2.0) . **The standard for trading dashboards** .
-
-- Community **n8n** workflows for chart data pipeline automation and dashboard alerting.
-
-
-
-**Frameworks for building custom systems**: Combine **D3.js** for custom visualizations with **Recharts** or **Nivo** for React components, **Apache ECharts** for complex enterprise dashboards, **uPlot** for high-performance time series, and **Visx** for D3-level control with React idioms—creating a comprehensive visualization stack.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Charting libraries handling user data must comply with data protection regulations and respect rendering performance constraints on end-user devices.
-
-- **Open-source charting is mature and production-ready.** D3.js is the foundation every other library builds on or learns from . Chart.js is the most widely adopted for simplicity . Apache ECharts provides the most feature-complete enterprise option . **These are genuine alternatives to Highcharts and amCharts.**
-
-- **The abstraction level is the key decision.** D3.js for maximum control and custom visualizations . Visx for D3 primitives with React idioms . Recharts for declarative React components . Chart.js for the fastest path to charts . **Choose based on how much control you need versus how fast you want to ship.**
-
-- **Rendering technology matters for performance.** SVG (Recharts, Nivo, Victory, ApexCharts) for accessibility and crisp rendering at any zoom . Canvas (Chart.js, ECharts, uPlot) for large datasets and animation performance . **uPlot handles millions of points where SVG libraries choke.**
-
-- **Highcharts and amCharts are commercial for SaaS.** Highcharts is free for personal and non-commercial use; commercial license required for revenue-generating applications . amCharts is free with attribution . **Always verify licensing before shipping commercial products.**
-
-- Self-hosted open-source solutions require proper bundling, tree-shaking, and performance optimization. **Charting libraries can bloat bundles**—choose lightweight options (uPlot, Chart.js) when bundle size matters.
-
-
+---
+
+## 🔓 Open-Source GitHub Projects (Ranked by Stars)
+
+All open-source repositories are strictly ranked in descending order by community GitHub star count. Each entry features a live GitHub star badge linking directly to the project's stargazers page.
+
+### 👑 Top Tier Libraries
+
+- **[D3.js](https://github.com/d3/d3)** [![Stars](https://img.shields.io/github/stars/d3/d3?style=social&color=white)](https://github.com/d3/d3/stargazers)  
+  **The foundational JavaScript library for manipulating documents based on data** (ISC).  
+  *Toolkit primitives*: Low-level DOM binding, scales, shapes, and physics layouts. Everything in the modern JavaScript visualization world is either built on D3 or heavily influenced by its mathematical foundations. Steep learning curve with total artistic and technical control.  
+  🎯 **Best for**: Bespoke interactive graphics, custom infovis research, and novel visualization algorithms.
+
+- **[Chart.js](https://github.com/chartjs/Chart.js)** [![Stars](https://img.shields.io/github/stars/chartjs/Chart.js?style=social&color=white)](https://github.com/chartjs/Chart.js/stargazers)  
+  **Simple, clean, and engaging HTML5 canvas charts for designers & developers** (MIT).  
+  *HTML5 Canvas*: Provides 8 core chart types with built-in spring animations, tooltips, responsive canvas wrappers, and extensive community plugin extensions.  
+  🎯 **Best for**: Standard web applications, client admin panels, and rapid dashboard prototypes.
+
+- **[Apache ECharts](https://github.com/apache/echarts)** [![Stars](https://img.shields.io/github/stars/apache/echarts?style=social&color=white)](https://github.com/apache/echarts/stargazers)  
+  **Powerful enterprise-grade charting and visualization library** (Apache-2.0).  
+  *Canvas/SVG + WebGL*: Supports 20+ chart families, 3D surface charts (GL), coordinate systems, maps, heatmaps, and dynamic streaming zoom.  
+  🎯 **Best for**: Heavy enterprise reporting suites, high-density telemetry, and complex multi-coordinate dashboards.
+
+- **[Recharts](https://github.com/recharts/recharts)** [![Stars](https://img.shields.io/github/stars/recharts/recharts?style=social&color=white)](https://github.com/recharts/recharts/stargazers)  
+  **Redefined React-native charting library built with React & D3** (MIT).  
+  *Declarative React Components*: Write charts with native JSX tags (`<ResponsiveContainer>`, `<LineChart>`, `<Bar>`, `<Tooltip>`). Pure SVG rendering.  
+  🎯 **Best for**: Modern React/Next.js applications prioritizing DX and declarative component composition.
+
+- **[Visx (Airbnb)](https://github.com/airbnb/visx)** [![Stars](https://img.shields.io/github/stars/airbnb/visx?style=social&color=white)](https://github.com/airbnb/visx/stargazers)  
+  **A collection of expressive, low-level visualization primitives for React** (MIT).  
+  *Unopinionated Primitives*: Splits D3 math into modular React components (scale, axis, shape, grid, clip-path) without dictating a rigid chart model or bloating bundle size.  
+  🎯 **Best for**: Design systems, custom React visualization components, and modular chart architectures.
+
+- **[Plotly.js](https://github.com/plotly/plotly.js)** [![Stars](https://img.shields.io/github/stars/plotly/plotly.js?style=social&color=white)](https://github.com/plotly/plotly.js/stargazers)  
+  **The high-level scientific and statistical JavaScript charting library** (MIT).  
+  *Scientific & Financial*: Built-in support for 40+ chart archetypes, statistical distributions, contour plots, ternary diagrams, and 3D WebGL charts. Powers Plotly.py and Dash.  
+  🎯 **Best for**: Data science portals, academic research, finance, and engineering applications.
+
+- **[Lightweight Charts (TradingView)](https://github.com/tradingview/lightweight-charts)** [![Stars](https://img.shields.io/github/stars/tradingview/lightweight-charts?style=social&color=white)](https://github.com/tradingview/lightweight-charts/stargazers)  
+  **High-performance financial and trading canvas charts by TradingView** (Apache-2.0).  
+  *Hyper-optimized HTML5 Canvas*: Zero-dependency, lightweight footprint (~45 KB) specifically crafted for candlesticks, volume bars, trendlines, and realtime trading feeds.  
+  🎯 **Best for**: Crypto exchanges, fintech apps, brokerage dashboards, and stock trackers.
+
+- **[ApexCharts.js](https://github.com/apexcharts/apexcharts.js)** [![Stars](https://img.shields.io/github/stars/apexcharts/apexcharts.js?style=social&color=white)](https://github.com/apexcharts/apexcharts.js/stargazers)  
+  **Modern, interactive SVG charts with sleek animations and multi-framework wrappers** (MIT).  
+  *Polished Out of the Box*: First-class wrappers for React, Vue, Svelte, and Angular. Packed with smooth animations, heatmaps, mixed timelines, and auto-generated legends.  
+  🎯 **Best for**: SaaS product dashboards, modern consumer apps, and marketing analytics.
+
+- **[Frappe Charts](https://github.com/frappe/charts)** [![Stars](https://img.shields.io/github/stars/frappe/charts?style=social&color=white)](https://github.com/frappe/charts/stargazers)  
+  **Simple, responsive, zero-dependency SVG charts inspired by GitHub contributions** (MIT).  
+  *Zero Dependencies*: Featherweight footprint (~15 KB) generating clean SVG bar, line, scatter, and heatmap visuals.  
+  🎯 **Best for**: Lightweight embeds, static sites, GitHub-style heatmaps, and low-complexity web apps.
+
+- **[Deck.gl (Uber)](https://github.com/uber/deck.gl)** [![Stars](https://img.shields.io/github/stars/uber/deck.gl?style=social&color=white)](https://github.com/uber/deck.gl/stargazers)  
+  **WebGL2-powered framework for large-scale data and geospatial exploratory visualization** (MIT).  
+  *GPU Accelerated*: Renders millions of spatial points, 3D buildings, hexbins, and trajectories at 60 FPS directly on the GPU. Integrates seamlessly with Mapbox and MapLibre.  
+  🎯 **Best for**: Big data geospatial intelligence, logistics mapping, and GPU-driven rendering.
+
+- **[Nivo](https://github.com/plouc/nivo)** [![Stars](https://img.shields.io/github/stars/plouc/nivo?style=social&color=white)](https://github.com/plouc/nivo/stargazers)  
+  **Rich suite of aesthetic data visualization components built on React & D3** (MIT).  
+  *Design-First*: Offers 40+ chart archetypes (Chord, Sankey, Treemap, Sunburst, Bump, Calendar). Provides Canvas, SVG, HTML rendering, and full Server-Side Rendering (SSR) support.  
+  🎯 **Best for**: Executive dashboards, editorial graphics, and modern React applications demanding top-tier typography and aesthetics.
+
+- **[Chartist.js](https://github.com/chartist-js/chartist)** [![Stars](https://img.shields.io/github/stars/chartist-js/chartist?style=social&color=white)](https://github.com/chartist-js/chartist/stargazers)  
+  **Simple, responsive SVG charting library with CSS styling architecture** (MIT).  
+  *CSS Separation*: Chart geometry is SVG while all visual aesthetics (colors, strokes, fills, animations) are driven cleanly via standard CSS classes.  
+  🎯 **Best for**: CSS-centric styling pipelines, design systems, and responsive frontends.
+
+- **[AntV G2](https://github.com/antvis/G2)** [![Stars](https://img.shields.io/github/stars/antvis/G2?style=social&color=white)](https://github.com/antvis/G2/stargazers)  
+  **The grammar of interactive graphics by Ant Group** (MIT).  
+  *Grammar of Graphics*: Deep declarative visual encoding inspired by Leland Wilkinson's Grammar of Graphics. Comprehensive ecosystem with automated chart layout and smart tooltips.  
+  🎯 **Best for**: Comprehensive data visualization platforms and analytical systems.
+
+- **[Vega](https://github.com/vega/vega)** [![Stars](https://img.shields.io/github/stars/vega/vega?style=social&color=white)](https://github.com/vega/vega/stargazers)  
+  **Declarative visualization grammar for creating, saving, and sharing interactive visual designs** (BSD-3-Clause).  
+  *JSON Specification*: Define visual appearances and interactive behaviors in clean JSON specifications; compiles into SVG or Canvas using D3 math.  
+  🎯 **Best for**: Visual analytics platforms, data journalism, and automated chart generation systems.
+
+- **[Victory](https://github.com/FormidableLabs/victory)** [![Stars](https://img.shields.io/github/stars/FormidableLabs/victory?style=social&color=white)](https://github.com/FormidableLabs/victory/stargazers)  
+  **Composable React and React Native components for building data visualizations** (MIT).  
+  *Cross-Platform*: Identical API schema across React web and React Native mobile apps. Highly modular component blocks.  
+  🎯 **Best for**: Universal codebases across iOS, Android, and web.
+
+- **[uPlot](https://github.com/leeoniya/uPlot)** [![Stars](https://img.shields.io/github/stars/leeoniya/uPlot?style=social&color=white)](https://github.com/leeoniya/uPlot/stargazers)  
+  **Fast, memory-efficient 2D canvas chart for time-series, lines, areas, OHLC & bars** (MIT).  
+  *Maximum Throughput*: Extremely fast rendering engine capable of plotting 150,000 data points in ~25ms at a tiny ~35 KB footprint.  
+  🎯 **Best for**: IoT metrics, real-time server monitoring, live sensor data, and high-frequency time-series.
 
 ---
 
+### 🚀 Specialized & Modern Frameworks
 
+- **[C3.js](https://github.com/c3js/c3)** [![Stars](https://img.shields.io/github/stars/c3js/c3?style=social&color=white)](https://github.com/c3js/c3/stargazers)  
+  **D3-based reusable chart library** (MIT). Wraps D3 boilerplate into simple object-driven APIs.
 
-**Made for frontend developers, data engineers, and organizations building transparent visualization solutions.**  
+- **[Charts.css](https://github.com/chartscss/charts.css)** [![Stars](https://img.shields.io/github/stars/chartscss/charts.css?style=social&color=white)](https://github.com/chartscss/charts.css/stargazers)  
+  **Pure CSS data visualization framework** (MIT). Uses semantic HTML tags (`<table>`) and transforms them into interactive bar, column, and area charts without JavaScript.
 
-Let's make Charting Libraries more open, data-driven, and composable.
+- **[3D Force-Graph](https://github.com/vasturiano/3d-force-graph)** [![Stars](https://img.shields.io/github/stars/vasturiano/3d-force-graph?style=social&color=white)](https://github.com/vasturiano/3d-force-graph/stargazers)  
+  **3D force-directed graph component using Three.js and WebGL** (MIT). Renders complex network topologies, relational data, and knowledge graphs in 3D space.
+
+- **[Billboard.js (NAVER)](https://github.com/naver/billboard.js)** [![Stars](https://img.shields.io/github/stars/naver/billboard.js?style=social&color=white)](https://github.com/naver/billboard.js/stargazers)  
+  **Re-usable, modern D3-based JavaScript chart library** (MIT). The official modern fork and actively maintained successor to C3.js supporting latest D3 versions.
+
+- **[Vega-Lite](https://github.com/vega/vega-lite)** [![Stars](https://img.shields.io/github/stars/vega/vega-lite?style=social&color=white)](https://github.com/vega/vega-lite/stargazers)  
+  **High-level grammar of interactive graphics** (BSD-3-Clause). Concise JSON syntax generating full Vega specifications for exploratory analysis and multi-view interactive dashboards.
+
+- **[Observable Plot](https://github.com/observablehq/plot)** [![Stars](https://img.shields.io/github/stars/observablehq/plot?style=social&color=white)](https://github.com/observablehq/plot/stargazers)  
+  **Concise API for exploratory data visualization by Observable** (ISC). Created by Mike Bostock; provides declarative marks, transforms, and automatic scales for rapid exploratory analysis.
+
+- **[Tremor](https://github.com/tremorlabs/tremor)** [![Stars](https://img.shields.io/github/stars/tremorlabs/tremor?style=social&color=white)](https://github.com/tremorlabs/tremor/stargazers)  
+  **Modern React components for building dashboards and analytics UIs** (Apache-2.0). Opinionated Tailwind CSS + Recharts visual building blocks for fast admin panels.
+
+- **[Unovis (F5)](https://github.com/f5/unovis)** [![Stars](https://img.shields.io/github/stars/f5/unovis?style=social&color=white)](https://github.com/f5/unovis/stargazers)  
+  **Modular data visualization framework with multi-framework bindings** (Apache-2.0). Native integration across React, Angular, Svelte, Vue, and vanilla JavaScript.
+
+- **[RoughViz](https://github.com/rough-stuff/rough-viz)** [![Stars](https://img.shields.io/github/stars/rough-stuff/rough-viz?style=social&color=white)](https://github.com/rough-stuff/rough-viz/stargazers)  
+  **Sketchy / hand-drawn styled charting library based on D3 and Rough.js** (MIT). Delivers charming hand-drawn aesthetics for presentations, rough prototypes, and storyboards.
+
+---
+
+## 🛠️ Selection Guide: Architectural Comparison
+
+| Library | Primary Target | Rendering | Bundle Weight | Abstraction Level |
+| :--- | :--- | :--- | :--- | :--- |
+| **D3.js** | Any Web Project | SVG / Canvas / HTML | Modular (~80 KB) | Low (Primitive Toolkit) |
+| **Chart.js** | Generic Web | HTML5 Canvas | Light (~65 KB) | High (Config Driven) |
+| **Apache ECharts** | Enterprise Dashboards | Canvas / SVG / WebGL | Comprehensive (~300 KB+) | High (Feature Rich) |
+| **Recharts** | React Apps | SVG | Medium (~100 KB) | High (Declarative JSX) |
+| **Visx** | React Design Systems | SVG | Highly Modular (Pick & Choose) | Medium (React Primitives) |
+| **Lightweight Charts**| Financial / Trading | HTML5 Canvas | Tiny (~45 KB) | High (Domain Specific) |
+| **uPlot** | Real-time & IoT | HTML5 Canvas | Ultralight (~35 KB) | Low/Medium (High Speed) |
+| **Deck.gl** | Geospatial / 3D | WebGL2 / GPU | Heavy (Big Data Focused) | Medium (GPU Layers) |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions make the open-source and data visualization community thrive! To add or update an entry:
+
+1. **Fork the repository** 🍴
+2. **Create a branch**: `git checkout -b feature/add-library-name`
+3. **Follow the formatting**:
+   - Provide the official URL, repository link, and license.
+   - Add accurate pricing information (starting tier) and free tier/trial limits for SaaS products.
+   - For open-source libraries, ensure the GitHub star badge (`style=social&color=white`) links to the repo's stargazers page.
+4. **Open a Pull Request** with a brief summary of the project's differentiators.
+
+---
+
+## ☕ Support & Sponsorship
+
+If this curated visualization collection has helped you save time, architect a dashboard, or discover the perfect charting library for your stack, consider supporting its ongoing maintenance and research!
+
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork and share** with your engineering and data teams.
+- ☕ **Buy me a coffee & sponsor my open-source work**:  
+  👉 **[Support on GitHub Sponsors](https://github.com/sponsors/ishandutta2007)** 💖
+
+Thank you to all contributors, sponsors, and visualization enthusiasts who keep this ecosystem vibrant! 🙌
+
+---
+
+## 📜 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Charting-Libraries&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Charting-Libraries&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is community-curated for informational, benchmarking, and educational purposes. Inclusion does not imply official commercial endorsement.
+- Verify all current software licensing terms before bundling libraries into proprietary or SaaS applications (e.g., dual commercial licenses on Highcharts or attribution requirements on amCharts).
+- All brand names, logos, and trademarks remain the property of their respective owners.
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ by <a href="https://github.com/ishandutta2007">Ishan Dutta</a> and the global open-source community.</sub>
+</div>
