@@ -30,6 +30,8 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -40,43 +42,22 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global data visualization and charting software market is estimated at approximately **$10.9B to $13.4B in 2024–2026**, growing at a CAGR of ~11–14% toward over $25B by the 2030s. The sector is **moderately concentrated**—while heavyweight BI suites (Tableau, Microsoft Power BI) anchor large enterprise deployments, the developer charting and embedded visualization segment remains dynamic and fragmented among specialized niche libraries, commercial SDKs, and open-source ecosystems.
+
+
+
 ## SaaS/Hosted Platforms
 
-
-
-- **[Highcharts](https://www.highcharts.com/)**  
-
-  **The most mature commercial charting library** with **30+ chart types** and deep accessibility support. **Free for personal and non-commercial use**; commercial license required for SaaS . **The most widely deployed charting library** in enterprise dashboards.
-
-
-
-- **[amCharts](https://www.amcharts.com/)**  
-
-  **Premium charting library** with **40+ chart types**, **geographic maps**, and **stock charts**. **Free with attribution**; commercial license removes branding. **The most feature-complete commercial option** for geographic and financial charts.
-
-
-
-- **[Plotly Cloud](https://plotly.com/)**  
-
-  **The commercial platform behind the open-source Plotly.js library**. **Dash Enterprise** provides production deployment, app manager, and authentication for Dash applications . **The most Python-native charting platform**.
-
-
-
-- **[FusionCharts](https://www.fusioncharts.com/)**  
-
-  **Enterprise charting library** with **100+ chart types**, **real-time updates**, and **cross-platform support** (JavaScript, React, Angular, Vue, Java, .NET, PHP, Python).
-
-
-
-- **[ZingChart](https://www.zingchart.com/)**  
-
-  **Canvas-based charting library** for large datasets with **real-time streaming** support.
-
-
-
-- **[AnyChart](https://www.anychart.com/)**  
-
-  **Enterprise charting library** with **70+ chart types**, **maps**, **Gantt charts**, and **stock charts**. **Free for non-commercial use**.
+| Platform | Revenue / Valuation (Est.) | Starting Price | Free Tier / Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Plotly Cloud](https://plotly.com/)** | ~$18M–$50M ARR / ~$14M funding | $29/creator seat/month | Free forever: 1 concurrent running app (public/personal share), community support, and trial AI credits | The commercial platform behind Plotly.js & Dash; offers cloud app hosting, Studio, and Dash Enterprise for private/on-prem deployments. |
+| **[Highcharts](https://www.highcharts.com/)** | ~$6.5M–$10M ARR | $185/developer/year | Free for non-commercial use only (personal sites, student coursework, non-profit); commercial/internal/SaaS usage strictly requires paid license | Mature commercial charting library featuring 30+ chart types, maps, Gantt, stock charts, and deep accessibility compliance. |
+| **[FusionCharts](https://www.fusioncharts.com/)** | ~$5M+ ARR (Acquired by Idera) | $439/developer/year | 14-day free trial with unrestricted access to all 100+ chart types and map features | Enterprise charting suite providing 100+ chart types, gauges, maps, real-time streaming, and cross-framework support. |
+| **[amCharts](https://www.amcharts.com/)** | <$5M ARR | $80/developer/year | Free forever: full access to all chart types and features, but displays a permanent "amCharts" branding link/watermark | High-performance charting and geospatial mapping library with comprehensive stock, financial, and geographic visualization tools. |
+| **[AnyChart](https://www.anychart.com/)** | Small/Mid Enterprise (<$5M ARR) | $49/website (one-time) | Free forever for non-profit/educational use; unlimited-time free evaluation with visible watermark on charts | Enterprise visualization engine with 70+ chart types, Gantt charts, maps, and stock charts across JavaScript frameworks. |
+| **[ZingChart](https://www.zingchart.com/)** | ~$300k–$500k ARR | $249 (one-time license) | Free forever (Branded License): full access to all chart modules and unlimited rendering, but requires a visible "Powered by ZingChart" watermark (hidden on `localhost`) | Fast canvas/SVG hybrid charting library designed for high-density datasets, real-time telemetry, and modular dashboards. |
 
 
 
